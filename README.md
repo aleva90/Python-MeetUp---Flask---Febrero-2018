@@ -2,11 +2,11 @@
 A continuacion se presentan los archivos utilizados en la presentación de Python MeetUp
 
 ### Contenido
-1. [Acerca De](#Acerca De)
-2. [Requerimientos](#Requerimientos)
-3. [Instalacion de Librerias Necesarias](#Instalacion de Librerias Necesarias)
-4. [Configuración](#Configuración)
-5. [Uso](#Uso)
+1. [Acerca De](#acerca-de)
+2. [Requerimientos](#requerimientos)
+3. [Instalacion de Librerias Necesarias](#instalacion-de-librerias-necesarias)
+4. [Configuración](#configuraci%C3%B3n)
+5. [Uso](#uso)
 6. [Licencia](#license)
 
 ## Acerca De
