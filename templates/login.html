@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <title>Dashboard Spotify</title><meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="../static/css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="../static/css/matrix-login.css">
+        <link rel="stylesheet" href="../static/font-awesome/css/font-awesome.css">
+	    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800" type='text/css'>
+
+    </head>
+    <body>
+        <div id="loginbox">
+            <form id="loginform" class="form-vertical" action="/callSpotify" method="post">
+				 <div class="control-group normal_text"> <h3><img src="../static/img/logo.png" alt="Logo" /></h3></div>
+         {% with messages = get_flashed_messages() %}
+             {% if messages %}
+                 <ul>
+                   {% for message in messages %}
+                     <div class="alert alert-warning alert-dismissible" role="alert">
+                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                     {{message}}
+                     </div>
+                   {% endfor %}
+                 </ul>
+             {% endif %}
+       {% endwith %}
+                <div class="form-actions">
+                    <span class="pull-right"><button id="btnSignIn" class="btn btn-success" type="submit">Login with Spotify</button></span>
+                </div>
+            </form>
+            <div class="footer">
+              <footer class="footer">
+                <p>&copy; Python Guatemala 2018</p>
+              </footer>
+            </div>
+        </div>
+
+        <script src="../static/js/jquery.min.js"></script>
+        <script src="../static/js/matrix.login.js"></script>
+    </body>
+
+</html>
