@@ -1,34 +1,23 @@
 # Python MeetUp 24 de Febrero de 2018 - Flask && Pandas
-A continuacion se presentan los archivos utilizados en la presentación del Python MeetUp
+A continuacion se presentan los archivos utilizados en la presentación de Python MeetUp
 
-###Contents
-1. [Acerca De](#about)
-2. [Requerimientos](#requirements)
-3. [Instalacion de Librerias Necesarias](#installation)
-4. [Configuracion](#configuration)
-5. [Uso](#usage)
+### Contenido
+1. [Acerca De](#Acerca De)
+2. [Requerimientos](#Requerimientos)
+3. [Instalacion de Librerias Necesarias](#Instalacion de Librerias Necesarias)
+4. [Configuración](#Configuración)
+5. [Uso](#Uso)
 6. [Licencia](#license)
 
-## About
+## Acerca De
 
+## Requerimientos
 
-### Improvements
+## Instalacion de Librerias Necesarias
 
-### To-do list
+## Configuración
 
-### Samples
-
-## Requirements
-
-## Installation
-
-## Configuration
-### Twitter API & accounts
-
-## Usage
-
-
-### Running as a daemon process
+## Uso
 
 ## License
-Spotify Dashboard is Copyright © 2018 by Alejandro López and licensed under the MIT license. You may do what you like with the software, but must include the [license and copyright notice](https://github.com/robmathers/PressSecBotPlus/blob/master/LICENSE.txt).
+Spotify Dashboard is Copyright © 2018 by Alejandro López and licensed under the MIT license. You may do what you like with the software, but must include the [license and copyright notice](https://github.com/aleva90/Python-MeetUp-Flask-Febrero-2018/blob/master/LICENSE).
