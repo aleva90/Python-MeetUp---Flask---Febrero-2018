@@ -15,7 +15,7 @@ En la vista de Ultimas 50 Canciones Escuchadas, se muestran las ultimas 50 canci
 En la vista de Dashboard se presenta la ultima cancion escuchada por el usuario, la ultima playlist creada por el usuario, el artista top del usuario y la cancion top del usuario con sus respectivos covers.
 
 ## Requerimientos
-- CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, SCOPE para utilizar la [API de Spotify](developer.spotify.com)
+- CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, SCOPE para utilizar la [API de Spotify](http://developer.spotify.com)
 - Python 3 (compatible con Python 2.7)
 - [Spotipy](http://spotipy.readthedocs.io/en/latest/)
 - [Flask](http://flask.pocoo.org/)
